@@ -1,0 +1,143 @@
+/* Обнуление*/
+body{
+	height: 100%;
+	
+}
+.for_body{
+	color: #053f11; 
+	font-family: osnova;
+}
+.for_body.lock{
+	overflow: hidden; 
+}
+
+
+*,*:before,*:after{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+
+@font-face {
+	font-family: osnova;
+	src: url(Gilroy-Regular.ttf);
+}
+
+.m_row{
+	display: flex;
+}
+.m_wrapper{
+
+}
+.m_container{
+	max-width: 1000px;
+	margin: 0px auto;
+	padding: 0px 15px 0px 15px
+}
+
+/* Все что связано с HEADER*/
+.m_header{
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 50;
+	background-color: white;
+	box-shadow: 0 0 5vw rgba(0,0,0,0.1);
+}
+.m_header:before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+	background-color: white;
+	box-shadow: 0 0 5vw rgba(0,0,0,0.1);
+}
+.header__body{
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	height: 70px;
+	align-items: center;
+}
+.header__logo{
+	overflow: hidden;
+	position: relative;
+	z-index: 3;
+}
+.header__logo img{
+	height: 50px;
+	display: block;
+}
+.header__list{
+	display: flex;
+	position: relative;
+	z-index: 3;
+}
+.header__list li{
+	list-style: none;
+	margin: 15px 0px 0px 16px;
+}
+.header__link{
+	text-transform: uppercase;
+	font-size: 20px;
+	text-decoration: none;
+	color: #053f11;
+}
+
+.header__burger{
+	display: none;
+
+}
+
+/* конец Все что связано с HEADER*/
+
+.m_footer{
+	margin-top: 25px;
+	width: 100%;
+	height: 35vh;
+	background-image: url(../img/FOOTER.png);
+	background-size: 80% 100%;
+	color: white;
+}
+.foot_first{
+	height: 29vh;
+	padding-top: 7vh;
+}
+.foot_column{
+	flex: 0 1 33.33%;
+	text-align: center;
+	font-size: 2.5vh;
+}
+.foot_column h6{
+	font-size: 3.5vh;
+	font-weight: bolder;
+}
+.foot_column.c1{
+	padding-top: 4vh;
+}
+
+.contact{
+	text-align: justify;
+	padding-left: 35%;
+	margin-top: 1vh;
+}
+.contact p{
+	margin: 0;
+}
+.foot_second{
+	height: 6vh;
+	font-size: 2vh;
+	text-transform: uppercase;
+}
+
+/* Контент*/
+.m_content{
+	padding: 70px 0px 0px 0px;
+}
+/* конец Контент*/

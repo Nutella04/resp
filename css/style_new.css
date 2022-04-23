@@ -1,0 +1,40 @@
+.mini__header{ 
+	width: 50%; 
+}
+.mini__list{
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+}
+.mini__list li{
+	list-style: none;
+	margin: 15px 0px 0px 16px;
+}
+.mini__link{
+	text-transform: uppercase;
+	font-size: 20px;
+	text-decoration: none;
+	color: #053f11;
+}
+.mini__link.active{
+	color: #5daf9f;
+}
+.two-block_row{
+	display: flex;
+	border-bottom: solid #E0e0e0;
+	margin-bottom: 3%;
+}
+.column1{
+	flex: 0 1 35%;
+	padding-right: 5%;
+
+}
+.column1 h6{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.column2{
+	flex: 0 1 65%;
+	padding-top: 3%;
+}

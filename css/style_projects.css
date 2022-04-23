@@ -1,0 +1,218 @@
+/*Список проектов*/
+.two-block_row{
+	display: flex;
+	text-align: justify;
+	margin-top: 3%;
+}
+.column1{
+	padding: 0px 30px 20px 30px;
+}
+.column2{
+	padding: 20px 20px 20px 20px;
+	background-color: white;
+	box-shadow: 0 0 5vw rgba(0,0,0,0.1);
+}
+.image{
+	width: 100%;
+	height: 200px;
+}
+.image img{
+	min-width: 100%;
+	min-height: 100%;
+	max-height: 100%;
+	object-fit: cover;
+}
+.project_1{
+	justify-content: space-between;
+	margin-top: 1%;
+}
+
+.col_sod{
+	padding: 0px 10px 5px 10px;
+	overflow: hidden;
+ 	display: -webkit-box;
+ 	-webkit-line-clamp: 6;
+ 	-webkit-box-orient: vertical;
+ 	line-height: 20px;
+ 	height: 21vh;
+ 	
+}
+
+.v_strok{
+	justify-content: space-between; 
+	display: flex;
+}
+.v_strok a{
+	color: #053f11;
+}
+.v_strok h1{
+	font-size: 5vh;
+}
+.v_strok img{
+	height: 5vh;
+}
+.col_sod p{
+	margin: 5px 0px 5px 0px;
+
+}
+.column p{
+	font-size: 19px;
+}
+.col_sod h6{
+	font-size: 22px;
+	margin-top: 10px;
+}
+
+
+.logo_poisk{
+	overflow: hidden;
+	position: relative;
+}
+.logo_poisk img{
+	height: 35px;
+	display: block;
+}
+.navig{
+	display: flex;
+	justify-content: space-between;
+	text-transform: uppercase;
+	padding: 1% 0px 1% 0px;
+	position: relative;
+}
+.navig select{
+	background-color: white;
+	box-shadow: 0 0 5vw rgba(0,0,0,0.1);
+	border-radius: 0.3vw;
+	padding-left: 3%;
+	padding-right: 3%;
+}
+.navig label{
+	margin-top: 0.5vw;
+}
+.sort{
+	width: 100%;
+	background: #ABD0AC;
+}
+/*Список проектов*/
+
+/*Инфо про проект*/
+.m_block{
+	margin-top: 3vh;
+	box-shadow: 0 0 5vw rgba(0,0,0,0.1);
+	padding: 0.6vw 4vw 0vw 0vw;
+}
+.block1{
+	flex: 0 1 55%;
+	text-align: justify;
+}
+.block1 p{
+	margin-top: 1vw;
+}
+.m_block p{
+	font-size: 2.6vh;
+}
+.m_block button{
+	font-size: 2.6vh;
+}
+.block2{
+	flex: 0 1 42%;
+	margin-left: 3%;
+	border-left: solid #E1e2e2;
+}
+.image_big{
+	width: 100%;
+	height: 40vh;
+}
+.image_big img{
+	min-width: 100%;
+	min-height: 100%;
+	max-height: 100%;
+	object-fit: cover;
+}
+.bord{
+	width: 100%;
+	padding: 0.6vw 2vw 0vw 2vw;
+}
+.bord.linee{
+	border-top: solid #E1e2e2;
+}
+.bord h6{
+	font-size: 3vh;
+	margin: 0 0 0.6vw 0;
+}
+.bord p{
+	margin: 0;
+}
+.bord button{
+	margin: 0 0 1vw 0;
+}
+
+.poloska{
+	height: 15px;
+	width: 100%;
+	border-radius: 20px;
+	background-color: #e6f1e6;
+}
+.poloska{
+	height: 15px;
+	border-radius: 20px;
+	background-color: #13a354;
+}
+/*конец Инфо про проект*/
+
+.cash{
+	position: fixed;
+	left: 32.5vw;
+	top: -30vh;
+	width: 35vw;
+	border-radius: 2vw;
+	background-color: #13a379;
+	color: white;
+	text-align: center;
+	padding: 2vw 3vw 2vw 3vw;
+	box-shadow: 0 0 4vw rgba(0,0,0,0.5);
+	transition: 1s;
+}
+.cash.active{
+	top: 30vh;
+}
+.cash h1{
+	font-size: 4vh;
+	font-weight: bold;
+} 
+.cash h3{
+	font-size: 2.5vh;
+	margin-bottom: 5vh;
+} 
+.cash input{
+	font-size: 1.5vw;
+	border-radius: 20px;
+	margin-bottom: 2vh;
+	text-align: center;
+}
+.cash button{
+	font-size: 1.5vw;
+	border-radius: 20px;
+	text-align: center;
+	padding: 0 1vw 0 1vw;
+}
+.otmena span{
+	height: 2vw;
+	
+}
+.otmena:before,
+.otmena:after{
+	content: '';
+	background-color: white;
+	position: absolute;
+	top: 1.5vw;
+	right: 1vw;
+	height: 0.2vw;
+	width: 1.5vw;
+}
+.otmena:before{
+	transform:rotate(45deg);
+}
+.otmena:after{
+	transform:rotate(-45deg);
+}
